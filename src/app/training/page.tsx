@@ -174,9 +174,9 @@ export default function TrainingPage() {
               <div className="absolute inset-0 border-4 border-[#D4AF37] translate-x-4 translate-y-4 -z-10" />
               
               {/* Stats Overlay */}
-              <div className="absolute -bottom-8 -right-8 bg-[#722F37] p-6 text-white">
-                <div className="font-serif text-4xl font-bold">8+</div>
-                <div className="text-sm tracking-wider uppercase">Years of Training</div>
+              <div className="absolute bg-[#722F37] p-4 sm:p-5 lg:p-6 text-white bottom-4 left-4 lg:bottom-[-2rem] lg:right-[-2rem] lg:left-auto">
+                <div className="font-serif text-3xl sm:text-4xl font-bold">8+</div>
+                <div className="text-xs sm:text-sm tracking-wider uppercase">Years of Training</div>
               </div>
             </div>
           </div>

@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { Playfair_Display, Inter } from 'next/font/google';
 import './globals.css';
+import BackToTop from '@/components/layout/BackToTop';
 
 const playfair = Playfair_Display({
   subsets: ['latin'],
@@ -39,6 +40,7 @@ export default function RootLayout({
         className={`${playfair.variable} ${inter.variable} antialiased min-h-screen bg-background text-foreground font-sans`}
       >
         {children}
+        <BackToTop />
       </body>
     </html>
   );
