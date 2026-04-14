@@ -15,17 +15,30 @@ const inter = Inter({
   display: 'swap',
 });
 
-export const metadata: Metadata = {
-  title: 'Nestine Designs | Luxury Fashion House',
-  description:
-    'Bespoke fashion design - bridal gowns, evening wear, corporate attire. Crafting timeless elegance since 2017.',
-  icons: {
-    icon: [
-      { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
-      { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
+export const metadata = {
+  title: "Nestine Designs | Luxury Fashion House",
+  description: "Fashion design training and professional tailoring services.",
+
+  openGraph: {
+    title: "Nestine Designs",
+    description: "Join Nestine Designs Fashion Training Institute.",
+    url: "https://nestinedesigns.com",
+    siteName: "Nestine Designs",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+      },
     ],
-    shortcut: '/favicon.ico',
-    apple: '/favicon.ico',
+    type: "website",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Nestine Designs",
+    description: "Fashion training and design services.",
+    images: ["/og-image.png"],
   },
 };
 
