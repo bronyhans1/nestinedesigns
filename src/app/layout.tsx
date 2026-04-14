@@ -16,12 +16,12 @@ const inter = Inter({
 });
 
 export const metadata = {
-  title: "Nestine Designs | Luxury Fashion House",
+  title: "Nestine Designs",
   description: "Fashion design training and professional tailoring services.",
 
   openGraph: {
-    title: "Nestine Designs",
-    description: "Join Nestine Designs Fashion Training Institute.",
+    title: "Nestine Designs | Luxury Fashion House",
+    description: "Fashion design training and professional tailoring services. Join Nestine Designs Fashion Training Institute.",
     url: "https://nestinedesigns.com",
     siteName: "Nestine Designs",
     images: [
