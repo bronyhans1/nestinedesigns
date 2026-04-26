@@ -83,13 +83,6 @@ const galleryImages: GalleryImage[] = [
   },
   // Corporate Wears
   {
-    id: 'corporate-1',
-    src: '/images/collections/corporate1.webp',
-    alt: 'Professional business attire',
-    category: 'corporate',
-    title: '',
-  },
-  {
     id: 'corporate-2',
     src: '/images/collections/corporate2.webp',
     alt: 'Business professional wear',
